@@ -1,10 +1,14 @@
-# LearnAI: Knowledge Mining Bootcamp - Azure Cognitive Search Solution for business documents
+# Knowledge Mining
 
-## Build an intelligent search solution using the Microsoft Azure AI Platform
+![Logo](./resources/images/readme/header.png)
 
-## About this Course
+## Knowledge Mining Bootcamp - Build a Cognitive Search Solution for business documents using Microsoft AI Platform
+
+## About this course
 
 In this course, you will create an enterprise search solution by applying knowledge mining to business documents like contracts, memos, presentations and images. You will use Microsoft Azure AI technology to extract insights from unstructured data and expose the results in a Bot interface. This training is two days, but you can compress the duration with [alternative agendas](./resources/md-files/alternative-agendas.md).
+
+## Goals
 
 At the end of this training you will have learned:
 
@@ -122,25 +126,25 @@ Full Course classroom training:  16 hours
 
 ## Contact
 
-Contact us: LearnAI@microsoft.com and http://aka.ms/LearnAI-GitHub
+Contact us: LearnAI@microsoft.com and <http://aka.ms/LearnAI-GitHub>
 
 ## Certifications
 
 The LearnAI team had intense participation in the creation of the following new Microsoft certifications:
 
-+ Azure Data Engineer​
-  + DP-200: Implementing an Azure Data Solution ​
-  + 80% off discount code thru Mar 12, 2019: DP200BigTrips​
-  + DP-201: Designing an Azure Data Solutions​
-  + 80% off discount code thru Mar 12, 2019: DP201Walks​
+- Azure Data Engineer​
+  - DP-200: Implementing an Azure Data Solution ​
+  - 80% off discount code thru Mar 12, 2019: DP200BigTrips​
+  - DP-201: Designing an Azure Data Solutions​
+  - 80% off discount code thru Mar 12, 2019: DP201Walks​
 
-+ Azure AI Engineer​
-  + AI-100: Designing and Implementing an Azure AI Solution ​
-  + 80% off discount code thru Mar 5, 2019: AI100Goals​
+- Azure AI Engineer​
+  - AI-100: Designing and Implementing an Azure AI Solution ​
+  - 80% off discount code thru Mar 5, 2019: AI100Goals​
 
-+ Azure Data Scientist ​
-  + DP-100: Designing and Implementing a Data Science Solution on Azure​
-  + 80% off discount code thru Mar 7, 2010: DP100KLS​
+- Azure Data Scientist ​
+  - DP-100: Designing and Implementing a Data Science Solution on Azure​
+  - 80% off discount code thru Mar 7, 2010: DP100KLS​
 
 ### Q&A and Survey
 

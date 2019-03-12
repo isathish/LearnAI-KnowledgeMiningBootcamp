@@ -23,14 +23,22 @@ For more information on sizing, click [here](https://docs.microsoft.com/en-us/az
 The diagrams below explain some of the scenarios for Cognitive Search
 
 1. **Simple Scenario**: Visual representation of the scenario addressed in this training.
+
 1. **Multiple Data Sources Scenario**: It is the situation explained in the section above, about parallel processing: Big data volume requires parallel processing, what demands data partitioning and one indexer per partition.
+   
    + If the data was partitioned per timestamp, you should the same indexer definition for all indexers.
    + If the data was partitioned by business rules or file types, you can see different indexers definitions. Image skills are heavier than text ones. If your images are separated in a partition, you can increase performance not applying image skills on text documents.
-1. **Multiple Indexes Scenario**: The third scenario is used when you need to physically isolate the created metadata.
-1. **Multiple Indexers Scenario**: Typically used when you need to use multiple schedules and skillsets to index the data. Example: The data source has files updated every 15 minutes and other files updated every hour and other files updated when a new file arrives in a folder.
+
+1. **Multiple Indexes Scenario**: This scenario is used when you need to:
+
+  + Physically isolate the created metadata
+  + Different index properties of the index: facetable, searchable, filterable, etc
+
 1. **Multiple Skisets Scenario**: This scenario is used when you have one of the following situations:
+
    + A Custom Skill that has different update times. So, you don't need to call that API for all of your executions.
    + Your data has multiple updates periods. Example: images are updated in the morning, text documents in the afternoon.
+
 
 ![Simple Scenario](../resources/images/lab-final-case/simple.png)
 ![Complex Scenario 1](../resources/images/lab-final-case/complex1.png)
@@ -39,10 +47,10 @@ The diagrams below explain some of the scenarios for Cognitive Search
 
 ## Case Study
 
-Contoso Vineyard is a relatively new vineyard that is gaining popularity quickly due to several factors. One reason is that Contoso Vineyard operates on a monthly subscription model, with progressive discounts.
+**Contoso Total Wines** is a relatively new wine dealership that is gaining popularity quickly due to several factors. One reason is the monthly subscription model, with progressive discounts.
 The company has an  award-winning customer service, what helped the business growth in South America countries. While Gold subscribers can chat with sommeliers to customize the next wine delivery, Silver clients can chat with intelligent bots to customize their options.
 
-Now the company needs to increase their search capabilities, for channels like chat, web portal and mobile Application. Contoso Vineyard needs to enrich and index their product catalog to increase accuracy of clients and sommeliers searches. The product catalog is a series of HTML, Microsoft Word and PDFs documents. Some of them have images and they are all written in English, which is a problem for their Latin America clients.
+Now the company needs to increase their search capabilities, for channels like chat, web portal and mobile Application. They decided to enrich and index their product catalog to increase accuracy of clients and sommeliers searches. The product catalog is a series of HTML, Microsoft Word and PDFs documents. Some of them have images and they are all written in English, which is a problem for their Latin America clients.
 
 They also want to provide links for places, grapes and other entities their data has. The company owner and the Master Sommelier are famous figures and the marketing department wants to highlight this as well.
 
